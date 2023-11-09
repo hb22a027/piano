@@ -38,8 +38,9 @@ void DrawMain()
     DrawText("Hello, world!!", -12*14/2, -44, kColorRed);
     Sleep(0.5f);
     DrawText("Hello, world!!", -12*14/2, -66, kColorGray);
+
     Sleep(0.5f);
-<<<<<<< HEAD
+
     DrawText("Hello, world!!", -12*14/2, -66, kColorBlack);
 
     //追加したコード
@@ -47,8 +48,12 @@ void DrawMain()
     DrawText("Hello, world!!", -12*14/2, -122, kColorRed);
 
 
-=======
+
     DrawText("Hello, world!!", -12*14/2, -88, kColorGray);
->>>>>>> feature/ochi
+
+
+    //追加したコード
+    Sleep(0.5f);
+    DrawText("Hello, world!!", -12*14/2, -88, kColorGray);
 }
 
